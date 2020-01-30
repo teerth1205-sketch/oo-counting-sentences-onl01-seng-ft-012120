@@ -20,6 +20,7 @@ class String
       a
     end 
     array.compact
+    array.count
     
    
   end
