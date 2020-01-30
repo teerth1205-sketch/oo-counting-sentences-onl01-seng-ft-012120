@@ -15,13 +15,10 @@ class String
   end
 
   def count_sentences
-    array = self.split(/[.?!]/).reject{|x| x
+    array = self.split(/[.?!]/).reject{|x| x.empty?}
 
-   i += 1
         
-    end 
-    array.compact
-    
+  
     
    
   end
