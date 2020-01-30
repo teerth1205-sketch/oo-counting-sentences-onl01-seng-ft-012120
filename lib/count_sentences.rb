@@ -16,8 +16,11 @@ class String
 
   def count_sentences
     array = self.split(/[.?!]/)
-    array.map do |a|
-      a
+   i = 0 
+   while i < array.length 
+   if array[i] == ""
+   i += 1
+        
     end 
     array.compact
     
